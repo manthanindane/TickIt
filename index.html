@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Seat Booking</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<!-- Maharashtra-->
+<select id="city" name="city" class="form-select">
+    <option value="">Select City</option>
+    <option value="Achalpur">Achalpur</option>
+    <option value="Ahiri">Ahiri</option>
+    <option value="Ahmadnagar">Ahmadnagar</option>
+    <option value="Ahmadpur">Ahmadpur</option>
+    <option value="Airoli">Airoli</option>
+    <option value="Ajra">Ajra</option>
+    <option value="Akalkot">Akalkot</option>
+    <option value="Akola">Akola</option>
+    <option value="Akot">Akot</option>
+    <option value="Alandi">Alandi</option>
+    <option value="Alibag">Alibag</option>
+    <option value="Allapalli">Allapalli</option>
+    <option value="Amalner">Amalner</option>
+    <option value="Amarnath">Amarnath</option>
+    <option value="Ambad">Ambad</option>
+    <option value="Ambajogai">Ambajogai</option>
+    <option value="Amravati">Amravati</option>
+    <option value="Amravati Division">Amravati Division</option>
+    <option value="Anjangaon">Anjangaon</option>
+    <option value="Anshing">Anshing</option>
+    <option value="Arangaon">Arangaon</option>
+    <option value="Artist Village">Artist Village</option>
+    <option value="Arvi">Arvi</option>
+    <option value="Ashta">Ashta</option>
+    <option value="Ashti">Ashti</option>
+    <option value="Aurangabad">Aurangabad</option>
+    <option value="Ausa">Ausa</option>
+    <option value="Badlapur">Badlapur</option>
+    <option value="Balapur">Balapur</option>
+    <option value="Ballalpur">Ballalpur</option>
+    <option value="Baramati">Baramati</option>
+    <option value="Barsi">Barsi</option>
+    <option value="Basmat">Basmat</option>
+    <option value="Beed">Beed</option>
+    <option value="Bhandara">Bhandara</option>
+    <option value="Bhayandar">Bhayandar</option>
+    <option value="Bhigvan">Bhigvan</option>
+    <option value="Bhiwandi">Bhiwandi</option>
+    <option value="Bhor">Bhor</option>
+    <option value="Bhudgaon">Bhudgaon</option>
+    <option value="Bhum">Bhum</option>
+    <option value="Bhusaval">Bhusaval</option>
+    <option value="Bid">Bid</option>
+    <option value="Biloli">Biloli</option>
+    <option value="Boisar">Boisar</option>
+    <option value="Borivli">Borivli</option>
+    <option value="Buldana">Buldana</option>
+    <option value="Chakan">Chakan</option>
+    <option value="Chalisgaon">Chalisgaon</option>
+    <option value="Chanda">Chanda</option>
+    <option value="Chandor">Chandor</option>
+    <option value="Chandrapur">Chandrapur</option>
+    <option value="Chandur">Chandur</option>
+    <option value="Chandur Bazar">Chandur Bazar</option>
+    <option value="Chicholi">Chicholi</option>
+    <option value="Chikhli">Chikhli</option>
+    <option value="Chinchani">Chinchani</option>
+    <option value="Chiplun">Chiplun</option>
+    <option value="Chopda">Chopda</option>
+    <option value="Dabhol">Dabhol</option>
+    <option value="Dahanu">Dahanu</option>
+    <option value="Darwha">Darwha</option>
+    <option value="Daryapur">Daryapur</option>
+    <option value="Dattapur">Dattapur</option>
+    <option value="Daulatabad">Daulatabad</option>
+    <option value="Daund">Daund</option>
+    <option value="Dehu">Dehu</option>
+    <option value="Deolali">Deolali</option>
+    <option value="Deoli">Deoli</option>
+    <option value="Deulgaon Raja">Deulgaon Raja</option>
+    <option value="Dharangaon">Dharangaon</option>
+    <option value="Dharmabad">Dharmabad</option>
+    <option value="Dharur">Dharur</option>
+    <option value="Dhule">Dhule</option>
+    <option value="Dhulia">Dhulia</option>
+    <option value="Diglur">Diglur</option>
+    <option value="Digras">Digras</option>
+    <option value="Dombivli">Dombivli</option>
+    <option value="Dondaicha">Dondaicha</option>
+    <option value="Dudhani">Dudhani</option>
+    <option value="Durgapur">Durgapur</option>
+    <option value="Erandol">Erandol</option>
+    <option value="Faizpur">Faizpur</option>
+    <option value="Gadchiroli">Gadchiroli</option>
+    <option value="Gadhinglaj">Gadhinglaj</option>
+    <option value="Gangakher">Gangakher</option>
+    <option value="Gangapur">Gangapur</option>
+    <option value="Gevrai">Gevrai</option>
+    <option value="Ghatanji">Ghatanji</option>
+    <option value="Ghoti Budrukh">Ghoti Budrukh</option>
+    <option value="Ghugus">Ghugus</option>
+    <option value="Gondiya">Gondiya</option>
+    <option value="Goregaon">Goregaon</option>
+    <option value="Guhagar">Guhagar</option>
+    <option value="Hadgaon">Hadgaon</option>
+    <option value="Harnai">Harnai</option>
+    <option value="Hinganghat">Hinganghat</option>
+    <option value="Hingoli">Hingoli</option>
+    <option value="Hirapur Hamesha">Hirapur Hamesha</option>
+    <option value="Ichalkaranji">Ichalkaranji</option>
+    <option value="Igatpuri">Igatpuri</option>
+    <option value="Kagal">Kagal</option>
+    <option value="Kalamb">Kalamb</option>
+    <option value="Kalamnuri">Kalamnuri</option>
+    <option value="Karad">Karad</option>
+    <option value="Karanja">Karanja</option>
+    <option value="Karjat">Karjat</option>
+    <option value="Karmala">Karmala</option>
+    <option value="Kati">Kati</option>
+    <option value="Katol">Katol</option>
+    <option value="Kolhapur">Kolhapur</option>
+    <option value="Kondalwadi">Kondalwadi</option>
+    <option value="Kopargaon">Kopargaon</option>
+    <option value="Koradi">Koradi</option>
+    <option value="Koregaon">Koregaon</option>
+    <option value="Koynanagar">Koynanagar</option>
+    <option value="Kudal">Kudal</option>
+    <option value="Kurandvad">Kurandvad</option>
+    <option value="Kurduvadi">Kurduvadi</option>
+    <option value="Lanja">Lanja</option>
+    <option value="Lasalgaon">Lasalgaon</option>
+    <option value="Latur">Latur</option>
+    <option value="Lohogaon">Lohogaon</option>
+    <option value="Lonar">Lonar</option>
+    <option value="Lonavla">Lonavla</option>
+    <option value="Mahabaleshwar">Mahabaleshwar</option>
+    <option value="Mahad">Mahad</option>
+    <option value="Maindargi">Maindargi</option>
+    <option value="Majalgaon">Majalgaon</option>
+    <option value="Makhjan">Makhjan</option>
+    <option value="Malegaon">Malegaon</option>
+    <option value="Malkapur">Malkapur</option>
+    <option value="Malvan">Malvan</option>
+    <option value="Manchar">Manchar</option>
+    <option value="Mangrul Pir">Mangrul Pir</option>
+    <option value="Manmad">Manmad</option>
+    <option value="Manor">Manor</option>
+    <option value="Mansar">Mansar</option>
+    <option value="Manwat">Manwat</option>
+    <option value="Matheran">Matheran</option>
+    <option value="Mehekar">Mehekar</option>
+    <option value="Mhasla">Mhasla</option>
+    <option value="Mhasvad">Mhasvad</option>
+    <option value="Mohpa">Mohpa</option>
+    <option value="Moram">Moram</option>
+    <option value="Morsi">Morsi</option>
+    <option value="Mowad">Mowad</option>
+    <option value="Mudkhed">Mudkhed</option>
+    <option value="Mukher">Mukher</option>
+    <option value="Mul">Mul</option>
+    <option value="Mumbai">Mumbai</option>
+    <option value="Mumbai Suburban">Mumbai Suburban</option>
+    <option value="Murbad">Murbad</option>
+    <option value="Murgud">Murgud</option>
+    <option value="Murtajapur">Murtajapur</option>
+    <option value="Nagothana">Nagothana</option>
+    <option value="Nagpur">Nagpur</option>
+    <option value="Nagpur Division">Nagpur Division</option>
+    <option value="Naldurg">Naldurg</option>
+    <option value="Nanded">Nanded</option>
+    <option value="Nandgaon">Nandgaon</option>
+    <option value="Nandura Buzurg">Nandura Buzurg</option>
+    <option value="Nandurbar">Nandurbar</option>
+    <option value="Nashik">Nashik</option>
+    <option value="Nashik Division">Nashik Division</option>
+    <option value="Navi Mumbai">Navi Mumbai</option>
+    <option value="Neral">Neral</option>
+    <option value="Nilanga">Nilanga</option>
+    <option value="Nipani">Nipani</option>
+    <option value="Osmanabad">Osmanabad</option>
+    <option value="Ozar">Ozar</option>
+    <option value="Pachora">Pachora</option>
+    <option value="Paithan">Paithan</option>
+    <option value="Palghar">Palghar</option>
+    <option value="Panchgani">Panchgani</option>
+    <option value="Pandharpur">Pandharpur</option>
+    <option value="Panhala">Panhala</option>
+    <option value="Panvel">Panvel</option>
+    <option value="Parbhani">Parbhani</option>
+    <option value="Parli Vaijnath">Parli Vaijnath</option>
+    <option value="Parola">Parola</option>
+    <option value="Partur">Partur</option>
+    <option value="Patan">Patan</option>
+    <option value="Pathardi">Pathardi</option>
+    <option value="Pathri">Pathri</option>
+    <option value="Patur">Patur</option>
+    <option value="Pawni">Pawni</option>
+    <option value="Pen">Pen</option>
+    <option value="Phaltan">Phaltan</option>
+    <option value="Pimpri">Pimpri</option>
+    <option value="Pipri">Pipri</option>
+    <option value="Powai">Powai</option>
+    <option value="Pulgaon">Pulgaon</option>
+    <option value="Pune">Pune</option>
+    <option value="Pune Division">Pune Division</option>
+    <option value="Purna">Purna</option>
+    <option value="Pusad">Pusad</option>
+    <option value="Rahimatpur">Rahimatpur</option>
+    <option value="Rahuri">Rahuri</option>
+    <option value="Raigarh">Raigarh</option>
+    <option value="Rajapur">Rajapur</option>
+    <option value="Rajgurunagar">Rajgurunagar</option>
+    <option value="Rajur">Rajur</option>
+    <option value="Rajura">Rajura</option>
+    <option value="Ramtek">Ramtek</option>
+    <option value="Ratnagiri">Ratnagiri</option>
+    <option value="Raver">Raver</option>
+    <option value="Revadanda">Revadanda</option>
+    <option value="Risod">Risod</option>
+    <option value="Roha">Roha</option>
+    <option value="Sangamner">Sangamner</option>
+    <option value="Sangli">Sangli</option>
+    <option value="Sangola">Sangola</option>
+    <option value="Saoner">Saoner</option>
+    <option value="Sasvad">Sasvad</option>
+    <option value="Satana">Satana</option>
+    <option value="Satara">Satara</option>
+    <option value="Satara Division">Satara Division</option>
+    <option value="Savantvadi">Savantvadi</option>
+    <option value="Savda">Savda</option>
+    <option value="Selu">Selu</option>
+    <option value="Shahada">Shahada</option>
+    <option value="Shahapur">Shahapur</option>
+    <option value="Shegaon">Shegaon</option>
+    <option value="Shiraguppi">Shiraguppi</option>
+    <option value="Shirdi">Shirdi</option>
+    <option value="Shirgaon">Shirgaon</option>
+    <option value="Shirpur">Shirpur</option>
+    <option value="Shirwal">Shirwal</option>
+    <option value="Shivaji Nagar">Shivaji Nagar</option>
+    <option value="Shrigonda">Shrigonda</option>
+    <option value="Sillod">Sillod</option>
+    <option value="Sindhudurg">Sindhudurg</option>
+    <option value="Sindi">Sindi</option>
+    <option value="Sinnar">Sinnar</option>
+    <option value="Sirur">Sirur</option>
+    <option value="Solapur">Solapur</option>
+    <option value="Sonegaon">Sonegaon</option>
+    <option value="Soygaon">Soygaon</option>
+    <option value="Srivardhan">Srivardhan</option>
+    <option value="Surgana">Surgana</option>
+    <option value="Talegaon Dabhade">Talegaon Dabhade</option>
+    <option value="Taloda">Taloda</option>
+    <option value="Tarapur">Tarapur</option>
+    <option value="Tasgaon">Tasgaon</option>
+    <option value="Telhara">Telhara</option>
+    <option value="Thane">Thane</option>
+    <option value="Trimbak">Trimbak</option>
+    <option value="Tuljapur">Tuljapur</option>
+    <option value="Tumsar">Tumsar</option>
+    <option value="Udgir">Udgir</option>
+    <option value="Ulhasnagar">Ulhasnagar</option>
+    <option value="Umarga">Umarga</option>
+    <option value="Umarkhed">Umarkhed</option>
+    <option value="Umred">Umred</option>
+    <option value="Uran">Uran</option>
+    <option value="Vada">Vada</option>
+    <option value="Vaijapur">Vaijapur</option>
+    <option value="Varangaon">Varangaon</option>
+    <option value="Vasind">Vasind</option>
+    <option value="Vengurla">Vengurla</option>
+    <option value="Virar">Virar</option>
+    <option value="Vite">Vite</option>
+    <option value="Wadgaon">Wadgaon</option>
+    <option value="Wai">Wai</option>
+    <option value="Wani">Wani</option>
+    <option value="Wardha">Wardha</option>
+    <option value="Warora">Warora</option>
+    <option value="Warud">Warud</option>
+    <option value="Washim">Washim</option>
+    <option value="Yaval">Yaval</option>
+    <option value="Yavatmal">Yavatmal</option>
+    <option value="Yeola">Yeola</option>
+</select>
+<body>
+    <div class="movie-container">
+        <label>Pick a movie:</label>
+        <select id="movie">
+            <option value="650"> Brahmāstra: Part One – Shiva(₹650)</option>
+            <option value="850"> Shershaah (₹850)</option>
+            <option value="550">  RRR - Rise Roar Revolt (₹550)</option>
+            <option value="750"> Tu Jhoothi Main Makkaar(₹750)</option>
+        </select>
+    </div>
+
+    <ul class="showcase">
+        <li>
+            <div class="seat"></div>
+            <small>N/A</small>
+        </li>
+        <li>
+            <div class="seat selected"></div>
+            <small>Selected</small>
+        </li>
+        <li>
+            <div class="seat occupied"></div>
+            <small>Occupied</small>
+        </li>
+    </ul>
+
+    <div class="container">
+        <div class="movie-screen">
+            <img src='screen-thumb.png' alt='screen' />
+        </div>
+
+        <div class="row-container">
+            <div class="row">
+                <div class="seat">A1</div>
+                <div class="seat">A2</div>
+                <div class="seat">A3</div>
+                <div class="seat">A4</div>
+                <div class="seat">A5</div>
+                <div class="seat">A6</div>
+                <div class="seat">A7</div>
+                <div class="seat">A8</div>
+            </div>
+            <div class="row">
+                <div class="seat">B1</div>
+                <div class="seat">B2</div>
+                <div class="seat">B3</div>
+                <div class="seat occupied">B4</div>
+                <div class="seat occupied">B5</div>
+                <div class="seat">B6</div>
+                <div class="seat">B7</div>
+                <div class="seat">B8</div>
+            </div>
+            <div class="row">
+                <div class="seat">C1</div>
+                <div class="seat">C2</div>
+                <div class="seat">C3</div>
+                <div class="seat">C4</div>
+                <div class="seat">C5</div>
+                <div class="seat">C6</div>
+                <div class="seat occupied">C7</div>
+                <div class="seat occupied">C8</div>
+            </div>
+            <div class="row">
+                <div class="seat">D1</div>
+                <div class="seat">D2</div>
+                <div class="seat">D3</div>
+                <div class="seat">D4</div>
+                <div class="seat">D5</div>
+                <div class="seat">D6</div>
+                <div class="seat">D7</div>
+                <div class="seat">D8</div>
+            </div>
+            <div class="row">
+                <div class="seat">E1</div>
+                <div class="seat">E2</div>
+                <div class="seat">E3</div>
+                <div class="seat occupied">E4</div>
+                <div class="seat occupied">E5</div>
+                <div class="seat">E6</div>
+                <div class="seat">E7</div>
+                <div class="seat">E8</div>
+            </div>
+            <h5 class='subtitle'>GOLD - ₹650</h5>
+            <div class="row">
+                <div class="seat">F1</div>
+                <div class="seat">F2</div>
+                <div class="seat">F3</div>
+                <div class="seat">F4</div>
+                <div class="seat">F5</div>
+                <div class="seat">F6</div>
+                <div class="seat">F7</div>
+                <div class="seat">F8</div>
+            </div>
+            <div class="row">
+                <div class="seat">G1</div>
+                <div class="seat">G2</div>
+                <div class="seat">G3</div>
+                <div class="seat">G4</div>
+                <div class="seat occupied">G5</div>
+                <div class="seat occupied">G6</div>
+                <div class="seat occupied">G7</div>
+                <div class="seat">G8</div>
+            </div>
+            <h5 class='subtitle'>DIAMOND - ₹850</h5>
+
+            <div class="text-wrapper">
+                <p class="text">Selected Seats <span id='count'>0</span>
+                    <p class="text">Total Price ₹<span id="total">0</span></p>
+            </div>
+        </div>
+
+    </div>
+
+
+    <!-- <div class="text-wrapper">
+        <p class="text">Selected Seats <span id='count'>0</span>
+            <p class="text">Total Price ₹<span id="total">0</span></p>
+    </div> -->
+
+    <script src='script.js'></script>
+</body>
+
+</html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.block {
+  display: block;
+  width: 100%;
+  border: none;
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.block:hover {
+  background-color: #ddd;
+  color: black;
+}
+</style>
+</head>
+<body>
+
+<h2>BOOK YOURS TICKETS NOW</h2>
+
+<button class="block"> PROCEED TO PAYMENT</button>
+
+</body>
+</html>
