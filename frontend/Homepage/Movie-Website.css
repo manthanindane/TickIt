@@ -1,5 +1,9 @@
+* {
+  box-sizing: border-box;
+}
+
 body {font-family: Arial, Helvetica, sans-serif;
-      background-color: #000;
+      background-color: black;
 }
 h1{
   color:beige;
@@ -33,9 +37,9 @@ p > em {
 .navbar a:hover {
   background-color: #000;
 }
-.active {
+/*.active {
   background-color: red;
-}
+}*/
 .card {
     display: flex;
     flex-direction: column;
@@ -45,7 +49,12 @@ p > em {
     background-color: #f1f1f1;
     margin-bottom: 4em;
     border-radius: 1em;
+    
 }
+/*.cards :hover {
+  background-color: #000;
+  color:#f1f1f1
+}*/
 .card-img-top{
   border-radius: 1em 1em 0 0 ;
 }
@@ -60,11 +69,11 @@ p > em {
     clear: both;
   }
 .carousel-inner{
-  height: 40em;
+  height: fit-content;
  }
 .img{
-  width: fit-content;
-  height: max-content;
+  width: fit-content ;
+  height: max-content ;
  }
 .item {
     height: inherit;
@@ -75,9 +84,9 @@ p > em {
     display: block;
   }
 .column {
-    width: 100%%;
-    display: block;
-    margin-bottom: 20px;
+    width : 100%;
+    display : block;
+    margin-bottom : 20px;
   }
 }
 .row {margin: 0 -5px;
@@ -89,3 +98,52 @@ p > em {
   height:40em;
   object-fit: cover;
 }      
+
+.card{
+  padding: 0 10px;;
+  width:29rem
+
+}
+.card-wrapper{
+  display: flex;
+  justify-content:center;
+}
+
+/* Event Container */
+
+.event-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.event-card {
+  width: 100%;
+  max-width: 300px;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.event-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.event-card h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.event-card p {
+  font-size: 14px;
+  color: #777;
+  margin-bottom: 0;
+}
+
+
+
+
