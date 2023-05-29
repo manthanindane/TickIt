@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    line-height: normal;
+  }
+  
+  :root {
+    /* fonts */
+    --font-poppins: Poppins;
+    --font-plus-jakarta-sans: "Plus Jakarta Sans";
+    --font-outfit: Outfit;
+    --font-raleway: Raleway;
+  
+    /* font sizes */
+    --font-size-xl: 15px;
+  
+    /* Colors */
+    --color-white: #fff;
+    --color-black: #000;
+    --color-dimgray: #676767;
+    --color-gray-100: rgba(143, 143, 143, 0);
+    --color-red-100: #ff0000;
+    --color-silver: #c9c9c9;  
+    /* border radiuses */
+    --br-6xs-7: 6.7px;
+    --br-xs: 12px;
+  }

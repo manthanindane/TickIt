@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/* .card {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 0px;
+  text-align: center;
+  background-color: #f1f1f1;
+  margin-bottom: 4em;
+  border-radius: 1em;
+} */
+
+
+.container mt-3{
+  overflow-y: hidden;
+}
+
+.column {
+  /* float: left; */
+  width: 30%;
+  padding: 0 10px;
+}
+
+/* .row:after {
+  content: "";
+  display: table;
+  clear: both;
+} */
+
+/* .carousel-inner {
+  height: 40em;
+} */
+
+/* .img {
+  width: fit-content;
+  height: max-content;
+} */
+
+/* .item {
+  height: inherit;
+} */
+
+
+.movie-card{
+  display: flex;
+  flex-direction: column  ;
+  background-color: rgb(13, 13, 13);
+  width: auto;
+  /* height: 80%; */
+  border-radius: 20px;
+  box-shadow: 0 0px 4px rgba(221, 221, 221, 0.2);
+  z-index: -2;
+}
+
+.movie-card-title,.movie-card-text{
+    font-family: 'Poppins', sans-serif;
+    margin-left: 20px;
+}
+
+
+.movie-card-title{
+  font-size: 2em;
+  color: white;
+  /* text-overflow:clip ; */
+  position: relative;
+}
+
+.movie-card-text{
+  font-size: 1em;
+  color: rgb(134, 134, 134);
+  background-image: url('../assets/shadow.png');
+}
+
+
+.recommended-movies-cards h2{
+  color: white;
+  font-size: 3em;
+  z-index: 3;
+
+
+}
+
+.recommended-movies-cards p{
+  color: rgb(174, 174, 174);
+  font-size: 1.3em;
+  margin-top: 0em;
+
+}
+
+
+
+
+.btncards{
+  margin-left: 1em;
+}

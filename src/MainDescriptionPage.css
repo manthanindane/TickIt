@@ -1,0 +1,38 @@
+.main-description-page {
+    width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+  }
+  
+  .main-description-page h1 {
+    font-size: 2em;
+    font-weight: bold;
+    margin-top: 0;
+  }
+  
+  .main-description-page p {
+    font-size: 1em;
+    line-height: 1.5em;
+    margin-bottom: 1em;
+  }
+  
+  .main-description-page img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .main-description-page .book-tickets {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .main-description-page .book-tickets button {
+    background-color: #000088;
+    color: #fff;
+    font-size: 1em;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  

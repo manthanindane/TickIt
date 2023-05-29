@@ -1,0 +1,35 @@
+.seat-selection {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .row {
+    flex: 1;
+    margin: 0 .5rem;
+  }
+  
+  .seat {
+    width: 100px;
+    height: 100px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+  }
+  
+  .seat.selected {
+    background-color: #000;
+    color: #fff;
+  }
+  
+  .seat.available {
+    color: #000;
+  }
+  
+  .seat.unavailable {
+    color: #ccc;
+    cursor: not-allowed;
+  }
+  
+
+  

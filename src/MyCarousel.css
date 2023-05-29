@@ -1,0 +1,53 @@
+
+
+.carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100% ;
+    height: 20em;
+    /* border: 1px solid red; */
+    margin-top: 10em;
+    overflow: hidden;
+  }
+
+
+
+.imgbox{
+    height: 20em;
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: center;
+    width: 70em;
+    align-items: center;
+    overflow-y: hidden;
+    padding: 1em;
+
+}
+
+  .carousel img {
+    width: 100%;
+    /* height: 20em; */
+    display: block;
+    margin: 0 auto;
+    padding: 1em;
+  }
+  
+
+
+.carbtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: inherit;
+    overflow: hidden;
+}
+
+.next, .prev{
+    border-radius: 0px;
+    background-color: transparent;
+    /* height: 100%; */
+ 
+    
+   
+}

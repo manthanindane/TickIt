@@ -1,0 +1,32 @@
+
+.card {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 20px;
+    background-color: black;
+  }
+  
+  .key {
+    background-color: #181818;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(160, 160, 160, 0.1);
+  }
+  
+  .key h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #ffffff;
+  }
+  
+  .key p {
+    font-size: 1em;
+    color: #e6e6e6;
+    margin-bottom: 40px;
+  }
+  
+  .key img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }

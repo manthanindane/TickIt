@@ -1,0 +1,91 @@
+.paycontainer{
+  margin-top: 2em;
+  background-color: #262626;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  /* border: 1px solid #f90000; */
+}
+
+.notmain{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ffffff;
+width: 60%;
+border-radius: 15px;
+height: 80%;
+}
+.payment {
+  background-color: #222;
+  color: #fff;
+}
+
+.fields{
+  display: flex;
+  width: 35em;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1em;
+
+}
+
+.text{
+  font-size: 1.5em;
+  margin: 1em;
+  color: #fff;
+}
+
+label{
+  font-weight: 500;
+  color: #fff;
+}
+.payment form {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Add align-items property to center align input fields */
+}
+
+.payment label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #fff;
+}
+
+.payment input {
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 100%; /* Adjust the width to fill the container */
+  max-width: 300px; /* Limit the maximum width of the input field */
+  /* border: 1px solid #ff0000; */
+  border-radius: 4px;
+  background-color: #444;
+  color: #fff;
+  
+}
+
+.payment button {
+  padding: 10px 20px;
+  background-color: #ff0000;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.payment button:hover {
+  background-color: #cc0000;
+}
+
+.payment button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.payment #error-message {
+  color: red;
+  margin-top: 10px;
+}
