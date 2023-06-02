@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/* CSS for the navbar */
+*{
+  font-family: 'Poppins', sans-serif;
+  background-repeat: no-repeat;
+  overflow-x: hidden;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: black;
+  color: white;
+}
+
+.navbar h1 {
+  font-size: 25px;
+  margin:0;
+}
+
+.navbar form {
+  display: flex;
+  align-items: center;
+}
+
+.navbar input[type="text"] {
+  padding: 6px;
+  border-radius: 4px;
+  border: none;
+  margin-left: 10px;
+  font-size: 16px;
+}
+
+
+.navbar input[type="submit"] {
+  background-color: green;
+  color: white;
+  padding: 10px 45px;
+  border-radius: 3px;
+  border: none;
+  cursor: pointer;
+}
+
+
+/* CSS for the Sign in button */
+.signin-button {
+  background-color: red;
+  color: #fff;
+  padding: 6px 20px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
+ /* CSS for drop down city select button */
+  .city-select {
+  background-color: #0b100b;
+  color: #fff;
+  padding: 6px 15px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  bottom: 0px;
+  left: 0px;
+}
+
+
+/* CSS for the Hamburger button */
+.hamburger-button {
+  background-color: #080101;
+  color: #fff;
+  padding: 6px 10px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
+
+/* CSS for the background image */
+body {
+  background-image: url('Cover image.png');
+  width: 100%;
+  height: 100vh;
+
+}
+
+/* CSS for the poster image */
+.poster {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  width: 350px;
+}
+
+.poster img {
+  width: 100%;
+  
+}
+ /* CSS for the description box */
+ .description {
+  flex: 1;
+  padding: 20px;
+  border-radius: 4px;
+  box-shadow: 0px 0px 10px white (243, 237, 237, 0.897);
+  position: absolute;
+  bottom: 150px;
+  left: 370px;
+  width: calc(100% - 390px);
+  z-index: 0;
+}
+
+.description h2 {
+  margin-top: 10em;
+  font-family: 'Poppins', sans-serif;
+  font-size: 3em;
+  color: #fff;
+}
+
+.description p {
+  font-size:1em;
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+  line-height: 1.5;
+}
+/* CSS for the Book Now button */
+.book-now-button {
+  background-color: red;
+  color: #fff;
+  padding: 6px 20px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  margin-left: 0px;
+  margin-top: 10px;
+  position: absolute;
+  bottom: 115px; 
+  left: 370px;
+  z-index: 1;
+
+
+  .shadow{
+    overflow-y: hidden;
+    position: fixed;
+    bottom: 0;
+  }
+}
